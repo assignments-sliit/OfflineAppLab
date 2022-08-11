@@ -9,9 +9,7 @@ const App = () => {
         <NetworkConsumer>
           {({ isConnected }) =>
             isConnected ? (
-              <Text style={styles.text}>
-                hello
-              </Text>
+              <Text style={styles.text}>hello</Text>
             ) : (
               <Text> No Network</Text>
             )
